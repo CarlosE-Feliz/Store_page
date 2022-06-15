@@ -10,6 +10,8 @@ function Categories(props) {
           <p>{loadedItem.description}</p>
       </>
   )
+
+  
 }
 
 export async function getStaticProps(context) {
@@ -45,3 +47,4 @@ export async function getStaticProps(context) {
   }
 
 export default Categories;
+
